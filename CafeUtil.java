@@ -23,7 +23,6 @@ public class CafeUtil {
     }
 
     void displayMenu(ArrayList<String> menuItems) {
-      
         // to access an element in an ArrayList using an index
         for (int i = 0; i < menuItems.size(); i++) {
             System.out.printf("%s %s\n", i, menuItems.get(i));
